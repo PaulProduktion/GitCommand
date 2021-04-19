@@ -1,7 +1,8 @@
 ////////////////// GIT ///// 
 
 -Pour tout nouveau projet faire un git init
--Pour ajouter "comit" ajouter les fichier que l'on veut : git add fichier.html 
+-Pour ajouter "comit" 
+-ajouter les fichier que l'on veut : git add fichier.html 
 Dans un deuxième enregistre le nom du comité : git commit -m "enregistre tes"
 -Voir les commit effectuer git log
 -Faire de branches : git branch .....
@@ -20,3 +21,7 @@ ASSOCIER DISTANT A NOTRE DEPOT LOCAL
 Se mettre dans notre terminal sur le master  ou branch 
 Prendre la commande git remote add origin ......
 Pousser vers la branche master => git push Origin master
+
+/// brancher sur un depot distant //// 
+Git remote add url du depot distant
+Git pull origin master
