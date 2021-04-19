@@ -1,0 +1,5 @@
+////////////////// GIT ///// 
+
+-Pour tout nouveau projet faire un git init
+-Pour ajouter "comit" ajouter les fichier que l'on veut : git and fichier.html 
+Dans un deuxième enregistre le nom du comité : git commit -m "enregistre tes"
