@@ -40,3 +40,16 @@ alias gc="git checkout"; #// aller dans une branche
 alias gb="git branch" ; #// ou on est ou crerr une branche avec le nom
 alias gbd='git branch -d' ; #supp une brnach bien mettre le nom
 alias gpom="git pull origin master"
+
+
+/// ALIAS //// RACCOURCI TERMINAL /// 
+alias mk='mkdir' ; #// creer un dossier
+alias tc='touch' ; #// Crer un fichier
+alias doc='cd ~/Documents' ; #// Allez dans les documents
+alias vs='code .' ; #// Ouvrir Vs code
+
+
+
+
+
+
