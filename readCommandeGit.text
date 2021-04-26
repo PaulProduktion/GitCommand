@@ -25,3 +25,18 @@ Pousser vers la branche master => git push Origin master
 /// brancher sur un depot distant //// 
 Git remote add url du depot distant
 Git pull origin master
+
+
+//// ALIAS //// RACCOURCI GIT /// 
+
+function gc { git commit -m "$@";}  #// commit un travaille
+alias gs="git status"; #// status 
+alias gpull="git pull" ; 
+alias gpush="git push" ; 
+alias gall="git add ."; #// ajoute tous les fichiers
+alias ga="git add" ; #// un fichier et mettre le nom
+alias gi="git init"; #// debut d'un dossier
+alias gc="git checkout"; #// aller dans une branche
+alias gb="git branch" ; #// ou on est ou crerr une branche avec le nom
+alias gbd='git branch -d' ; #supp une brnach bien mettre le nom
+alias gpom="git pull origin master"
