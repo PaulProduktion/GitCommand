@@ -32,7 +32,7 @@ Git pull origin master
 
 //// ALIAS //// RACCOURCI GIT /// 
 
-function gc { git commit -m "$@";}  #// commit un travaille
+alias gcm='git commit -m'  #// commit un travaille
 alias gs="git status"; #// status 
 alias gpull="git pull" ; 
 alias gpush="git push" ; 
