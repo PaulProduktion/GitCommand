@@ -52,7 +52,10 @@ alias gc="git checkout"; #// aller dans une branche
 alias gb="git branch" ; #// ou on est ou crerr une branche avec le nom
 alias gbd='git branch -d' ; #supp une brnach bien mettre le nom
 alias gpom="git pull origin master"
-alias gpsom= 'git push -u origin master'
+alias gpsom='git push -u origin master'; #// envoyer le tout sur le clou github
+alias grao='git remote add origin'; #// connecter avec lien local au distant
+
+
 
 
 /// ALIAS //// RACCOURCI TERMINAL /// 
