@@ -1,28 +1,67 @@
-////////////////// GIT ///// 
+////////////////// GIT LOCAL ///// 
 
--Pour tout nouveau projet faire un git init
--Pour ajouter "comit" 
--ajouter les fichier que l'on veut : git add fichier.html 
-Dans un deuxième enregistre le nom du comité : git commit -m "enregistre tes"
--Voir les commit effectuer git log
--Faire de branches : git branch .....
--Savoir où on est sur branche ou master : git branch
--Changer de Branch : git checkout ..... 
+-Pour tout nouveau projet base du dossier faire un => git init
+-ajouter save les modification fichier que l'on veut ou tout =>  git add fichier.html ou git add . 
+-enregistre la sauvgarde en faisant un commit  =>  git commit -m "message"
+
+-Voir Etat du fichier ou des fichiers => Git status
+-Voir les commit effectuer => git log
+
+
+-Faire de branches => git branch .....
+-Savoir où on est sur branche ou master => git branch
+-Changer de Branch => git checkout ..... 
 -Merger vers la Master : Se mettre sur celle qui reçoit, demander de prendre la banche et fusionner, 
 Supprimer la branch :
 => git checkout master => git merge nomdelabranch => git branch -d nomdelabranch
 
 
-///////// GITHUB /////// 
+///////// GITHUB EN LIGNE /////// 
 -Creer un repository => name, create / 
 
-ASSOCIER DISTANT A NOTRE DEPOT LOCAL
+$ASSOCIER DISTANT A NOTRE DEPOT LOCAL$
 
 Se mettre dans notre terminal sur le master  ou branch 
-Prendre la commande git remote add origin ......
-Pousser vers la branche master => git push Origin master
+-Connecter internet au local => git remote add origin "url"
+Pousser vers la branche master => git push -u origin master
+
+git add . 
+git commit -m ''
+git push -u origin master
+
+
 
 /// brancher sur un depot distant //// 
 Git remote add url du depot distant
 Git pull origin master
-~
+
++
++
++g
+
+//// ALIAS //// RACCOURCI GIT /// 
+
+alias gcm='git commit -m'  #// commit un travaille
+alias gs="git status"; #// status 
+alias gpull="git pull" ; 
+alias gpush="git push" ; 
+alias gall="git add ."; #// ajoute tous les fichiers
+alias ga="git add" ; #// un fichier et mettre le nom
+alias gi="git init"; #// debut d'un dossier
+alias gc="git checkout"; #// aller dans une branche
+alias gb="git branch" ; #// ou on est ou crerr une branche avec le nom
+alias gbd='git branch -d' ; #supp une brnach bien mettre le nom
+alias gpom="git pull origin master"
+
+
+/// ALIAS //// RACCOURCI TERMINAL /// 
+alias mk='mkdir' ; #// creer un dossier
+alias tc='touch' ; #// Crer un fichier
+alias doc='cd ~/Documents' ; #// Allez dans les documents
+alias vs='code .' ; #// Ouvrir Vs code
+
+
+
+
+
+
