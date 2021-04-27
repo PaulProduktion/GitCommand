@@ -25,3 +25,4 @@ Pousser vers la branche master => git push Origin master
 /// brancher sur un depot distant //// 
 Git remote add url du depot distant
 Git pull origin master
+~
