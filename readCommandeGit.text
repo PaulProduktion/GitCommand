@@ -1,13 +1,16 @@
 ////////////////// GIT ///// 
+LOCAL : 
+-Pour tout nouveau projet base du dossier faire un => git init
+-ajouter save les modification fichier que l'on veut ou tout =>  git add fichier.html ou git add . 
+-enregistre la sauvgarde en faisant un commit  =>  git commit -m "message"
 
--Pour tout nouveau projet faire un git init
--Pour ajouter "comit" 
--ajouter les fichier que l'on veut : git add fichier.html 
-Dans un deuxième enregistre le nom du comité : git commit -m "enregistre tes"
--Voir les commit effectuer git log
--Faire de branches : git branch .....
--Savoir où on est sur branche ou master : git branch
--Changer de Branch : git checkout ..... 
+-Voir Etat du fichier ou des fichiers => Git status
+-Voir les commit effectuer => git log
+
+
+-Faire de branches => git branch .....
+-Savoir où on est sur branche ou master => git branch
+-Changer de Branch => git checkout ..... 
 -Merger vers la Master : Se mettre sur celle qui reçoit, demander de prendre la banche et fusionner, 
 Supprimer la branch :
 => git checkout master => git merge nomdelabranch => git branch -d nomdelabranch
