@@ -19,11 +19,17 @@ Supprimer la branch :
 ///////// GITHUB EN LIGNE /////// 
 -Creer un repository => name, create / 
 
-ASSOCIER DISTANT A NOTRE DEPOT LOCAL
+$ASSOCIER DISTANT A NOTRE DEPOT LOCAL$
 
 Se mettre dans notre terminal sur le master  ou branch 
--Connecter intnet au local => git remote add origin "url"
+-Connecter internet au local => git remote add origin "url"
 Pousser vers la branche master => git push -u origin master
+
+git add . 
+git commit -m ''
+git push -u origin master
+
+
 
 /// brancher sur un depot distant //// 
 Git remote add url du depot distant
